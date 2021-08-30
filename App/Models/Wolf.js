@@ -15,6 +15,8 @@ export class Wolf {
         return false;
       case 1:
         return true;
+      default:
+        return true;
     };
   };
 
